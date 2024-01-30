@@ -75,13 +75,7 @@ const UploadsTable = ({ uploadsData: uploadsDataFromProps }) => {
             <tr className="uploads__table-row" key={data.prefix}>
               <td className="uploads__table-data">{data.id}</td>
               <td className="uploads__table-data uploads__table-data-link">
-                <a
-                  href={"www.google.com"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {data.links}
-                </a>
+                <a href={`https://${data.links}/`}>{data.links}</a>
               </td>
               <td className="uploads__table-data">{data.prefix}</td>
               <td className="uploads__table-data">

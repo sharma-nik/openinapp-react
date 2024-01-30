@@ -41,10 +41,18 @@ const Login = () => {
         <p className="login__app-name">BASE</p>
 
         <div className="login__contact-container">
-          <img src={githubLogo} className="login__contact-logo" />
-          <img src={twitterLogo} className="login__contact-logo" />
-          <img src={linkedinLogo} className="login__contact-logo" />
-          <img src={discordLogo} className="login__contact-logo" />
+          <a href="https://github.com/">
+            <img src={githubLogo} className="login__contact-logo" />
+          </a>
+          <a href="https://twitter.com/">
+            <img src={twitterLogo} className="login__contact-logo" />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <img src={linkedinLogo} className="login__contact-logo" />
+          </a>
+          <a href="https://discord.com/">
+            <img src={discordLogo} className="login__contact-logo" />
+          </a>
         </div>
       </div>
       <div className="login__right-side">
