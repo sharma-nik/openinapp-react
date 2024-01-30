@@ -1,0 +1,61 @@
+.drawer {
+  width: 20%;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+
+  &__logo-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 0;
+  }
+
+  &__logo {
+    height: 42px;
+    width: 42px;
+  }
+
+  &__base{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 15px;
+  }
+
+  &__navigation-icon{
+    height: 26px;
+    width: 24px;
+    margin-left: 32px;
+  }
+
+  &__navigation{
+    display: flex;
+    align-items: center;
+    margin-bottom: 52px;
+  }
+
+  &__navigation-label{
+    color: #030229;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.5;
+    margin-left: 14px;
+
+    &-selected{
+      color: #605BFF;
+      opacity: 1;
+      font-family: Nunito;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-left: 14px;
+    }
+  }
+}

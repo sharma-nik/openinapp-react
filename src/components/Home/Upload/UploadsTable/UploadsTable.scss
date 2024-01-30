@@ -1,0 +1,67 @@
+.uploads{
+  margin-left: 84px;
+  
+  &__title{
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: black;
+    margin-bottom: 46px;
+  }
+
+  &__table-container{
+    border-radius: 8px;
+    background: #F5F5F5;
+    padding: 0px 18px;
+    height: fit-content;
+    width: fit-content;
+    border-collapse: separate;
+    border-spacing: 0px 16px;
+  }
+
+  &__table-row{
+    height: 58px;
+    border-radius: 20px;
+    background:  #FFF;
+    padding: 16px;
+  }
+
+  &__table-data{
+    width: fit-content;
+    padding: 16px;
+    text-align: start;
+  }
+
+  &__table-data-select{
+    border-radius: 8px;
+    border: 1px solid  #F2F2F2;
+    padding: 12px;
+  }
+
+  &__table-data-link{
+    color: #5B93FF;
+  }
+
+  &__tags-container{
+    display: flex;
+  }
+
+  &__tag{
+    height: 24px;
+    border-radius: 4px;
+    background: #605BFF;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    padding: 4px 8px;
+  }
+
+  &__tag-icon{
+    color: white;
+    margin-left: 10px;
+  }
+}
